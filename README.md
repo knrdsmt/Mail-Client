@@ -1,4 +1,4 @@
-# Email Client README
+# Email Client
 
 ## Description
 This is a simple email client application built using Python's Tkinter library for the GUI, and the `smtplib` and `imaplib` modules for sending and receiving emails respectively. It allows users to send, receive, and delete emails from their email account.
@@ -17,12 +17,15 @@ This is a simple email client application built using Python's Tkinter library f
 - `imaplib` (for receiving emails)
 
 ## Usage
-1. Run the script `email_client.py`.
-2. Upon running, the application will prompt for the user's email address and password to log in.
-3. Once logged in, the user can compose emails by filling in the recipient, subject, and email body fields, and clicking on the "Send Email" button.
-4. Received emails will be displayed in the main window. Users can navigate through them using the "Previous" and "Next" buttons.
-5. Users can delete emails by selecting them and clicking on the "Delete Email" button.
-6. To refresh the inbox, click on the "Refresh" button.
+1. **Install Python:** Make sure you have Python 3.x installed on your system.
+2. **Clone Repository:** Clone the repository containing the email client application.
+3. **Install Dependencies:** If necessary, install the required dependencies by running `pip install -r requirements.txt`.
+4. **Run the Program:** Execute the script `email_client.py` by running `python email_client.py`.
+5. **Login:** Upon running, the application will prompt for your email address and password to log in.
+6. **Compose and Send Emails:** Once logged in, compose emails by filling in the recipient, subject, and email body fields, and click on the "Send Email" button.
+7. **Read Received Emails:** Received emails will be displayed in the main window. Navigate through them using the "Previous" and "Next" buttons.
+8. **Delete Emails:** Delete emails by selecting them and clicking on the "Delete Email" button.
+9. **Refresh Inbox:** To refresh the inbox, click on the "Refresh" button.
 
 ## Configuration
 - **Email Providers:** Although the current version of the email client is configured to work with WP Mail, you can modify the `server` variable in the `login` method of the `EmailClient` class according to your email provider's settings. Ensure that your email provider supports IMAP and SMTP protocols.
